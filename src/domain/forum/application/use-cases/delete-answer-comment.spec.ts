@@ -2,7 +2,7 @@ import { DeleteAnswerCommentUseCase } from "./delete-answer-comment";
 import { InMemoryAnswerCommentsRepository } from "@/tests/repositories/in-memory-answer-comments-repository";
 import { makeAnswerComment } from "@/tests/factories/make-answer-comment";
 import { UniqueEntityID } from "@/core/entities/unique-entity-id";
-import { NotAllowedError } from "./errors/not-allowed-error";
+import { NotAllowedError } from "../../../../core/errors/not-allowed-error";
 
 let inMemoryAnswerCommentsRepository: InMemoryAnswerCommentsRepository;
 
