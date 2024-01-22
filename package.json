@@ -1,0 +1,33 @@
+{
+  "name": "clean-ddd",
+  "version": "1.0.0",
+  "description": "Uma forma de transpor um problema, transformar uma necessidade em software.  Design de software e arquitetura de código são coisas completamente diferentes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "@types/node": "^20.6.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vitest-globals": "^1.4.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vite-tsconfig-paths": "^4.2.1",
+    "vitest": "^0.34.4"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
+}
